@@ -7,3 +7,4 @@ class destination:
     img:str
     desc:str
     name:str
+    offer:bool
