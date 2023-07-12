@@ -5,3 +5,5 @@ from .models import destination
 def index(request):
     dests=destination.objects.all()
     return render(request,"index.html",{'dests':dests})
+def destinations(request):
+    return render(request,"destinations.html")
