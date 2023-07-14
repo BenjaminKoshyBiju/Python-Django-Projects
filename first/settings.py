@@ -57,7 +57,7 @@ ROOT_URLCONF = 'first.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['W:/Dprojects/first/first/templetes'],
+        'DIRS': ['W:/Dprojects/first/first/etemp'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -123,10 +123,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS=[
-     os.path.join(BASE_DIR,'TravelSite/static')
+     os.path.join(BASE_DIR,'Ecommerce/static')
 
 ]
-STATIC_ROOT= os.path.join(BASE_DIR,'asset')
+STATIC_ROOT= os.path.join(BASE_DIR,'EcommerceAsset')
 MEDIA_ROOT=os.path.join(BASE_DIR,'media')
 MEDIA_URL='/media/'
 
